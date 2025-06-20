@@ -147,7 +147,7 @@ class ModularGradioApp:
         ### 📁 文件结构
         
         ```
-        ├── app_modular.py          # 主应用程序（模块加载器）
+        ├── app.py          # 主应用程序（模块加载器）
         ├── config.py               # 配置管理文件
         ├── modules/                # 功能模块目录
         │   ├── __init__.py        # 模块包初始化
@@ -184,7 +184,7 @@ class ModularGradioApp:
         1. 在 `modules/` 目录创建新的 `.py` 文件
         2. 实现模块类和界面创建函数
         3. 在 `config.py` 中添加模块配置
-        4. 在 `app_modular.py` 中注册模块接口
+        4. 在 `app.py` 中注册模块接口
         5. 更新 `modules/__init__.py` 导入新模块
         
         **模块开发规范：**
@@ -313,7 +313,7 @@ class ModularGradioApp:
    • 公开分享: {'是' if launch_kwargs['share'] else '否'}
 
 📁 文件结构:
-   • 主程序: app_modular.py
+   • 主程序: app.py
    • 配置文件: config.py  
    • 模块目录: modules/
    • 依赖管理: requirements.txt

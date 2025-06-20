@@ -53,7 +53,7 @@ echo "🌟 启动模块化应用..."
 echo ""
 
 # 启动应用
-python3 app_modular.py
+python3 app.py
 
 echo ""
 echo "👋 应用已退出"

@@ -72,7 +72,7 @@ bash start_modular.sh
 
 #### 方法2：直接运行
 ```bash
-python3 app_modular.py
+python3 app.py
 ```
 
 ### 访问应用
